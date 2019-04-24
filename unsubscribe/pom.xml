@@ -93,7 +93,7 @@
 					<!-- 默认端口是9001，这里使用10001 -->
 					<!-- 端口号必须大于1024，并且小于或等于65535 -->
 					<!-- 如果小于1024，要使用root -->
-					<jmxPort>10001</jmxPort>
+					<jmxPort>10002</jmxPort>
 				</configuration>
 			</plugin>
 		</plugins>
