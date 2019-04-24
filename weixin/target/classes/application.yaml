@@ -1,0 +1,16 @@
+spring:
+   datasource:
+      # useSSL=false表示不使用加密通讯，本机的数据库不需要加密，加密性能差
+      # serverTimezone=CST表示指定服务器的时区，CST=China Standard Time 中国标准时
+      url: jdbc:mysql://127.0.0.1:3306/weixin?useSSL=false&&serverTimezone=CST&allowPublicKeyRetrieval=true
+      username: weixin
+      password: 1234
+   redis:
+      host: 120.77.212.25
+      port: 6379
+      #数据库只能0~15，因为目前使用的是默认设置，最多16个数据库
+      database: 15
+
+#指定服务器在运行的时候，Tomcat使用的端口
+#Spring Boot自带了一个阉割版Tomcat，默认不支持jsp，只支持Servlet
+server.port: 8090
