@@ -8,6 +8,7 @@
   	<module>weixin</module>
   	<module>commons</module>
   	<module>subscribe</module>
+  	<module>unsubscribe</module>
   </modules>
   
   	<!-- 继承Spring Boot的父项目，可以利用Spring Boot的依赖管理功能，减少后面的配置量 -->
