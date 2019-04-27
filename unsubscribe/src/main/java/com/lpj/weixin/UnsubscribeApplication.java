@@ -46,9 +46,6 @@ public class UnsubscribeApplication implements
 		ctx=applicationContext;
 	}
 
-	
-
-	
 	@Bean
 	public MessageListener messageListener(
 			@Autowired
