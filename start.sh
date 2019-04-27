@@ -1,7 +1,7 @@
 #! /bin/bash
 
 # 安装所有模块
-mvn install
+mvn clean install
 
 #启动接入程序
 cd weixin
