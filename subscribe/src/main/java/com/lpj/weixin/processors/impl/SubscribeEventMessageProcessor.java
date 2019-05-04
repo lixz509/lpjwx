@@ -9,6 +9,7 @@ import org.springframework.stereotype.Service;
 
 import com.lpj.weixin.domain.User;
 import com.lpj.weixin.domain.event.EventInMessage;
+import com.lpj.weixin.domain.text.TextOutMessage;
 import com.lpj.weixin.processors.EventMessageProcessor;
 import com.lpj.weixin.repository.UserRepository;
 import com.lpj.weixin.service.WeiXinProxy;

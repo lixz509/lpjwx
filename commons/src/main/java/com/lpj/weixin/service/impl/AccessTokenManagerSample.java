@@ -51,7 +51,7 @@ public class AccessTokenManagerSample implements AccessTokenManager {
 						//再次获取令牌，还是没有令牌，此时就要调用远程接口
 						token = getRemoteToken(account);
 						//把获取到的令牌存储到数据库
-						redisTemplate.boundValueOps(key).set(token,token.getExpiresIn(),
+						redisTemplate.boundValueOps(key).set(token,token.getExpiresIn()-100,
 								TimeUnit.SECONDS);
 					}
 				}
