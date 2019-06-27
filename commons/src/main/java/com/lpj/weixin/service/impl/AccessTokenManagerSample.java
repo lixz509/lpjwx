@@ -86,7 +86,7 @@ public class AccessTokenManagerSample implements AccessTokenManager {
 		try {
 			//发送请求
 			//BodyHandlers里面包含了一系列的响应体处理程序，能够把响应体转换为需要的数据类型
-			//ofString宝石转换为String类型的数据
+			//ofString表示转换为String类型的数据
 			//Charset.forName("utf-8")表示使用UTF-8的编码转换数据
 			HttpResponse<String> response=hc.send(request,
 					BodyHandlers.ofString(Charset.forName("utf-8")));
