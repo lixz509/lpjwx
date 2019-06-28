@@ -1,9 +1,2 @@
 C:\Users\lixz509\Workspaces\Eclipse-weixin\lpjwx\subscribe\src\main\java\com\lpj\weixin\SubscribeApplication.java
-C:\Users\lixz509\Workspaces\Eclipse-weixin\lpjwx\subscribe\src\main\java\com\lpj\weixin\service\WeiXinProxy.java
 C:\Users\lixz509\Workspaces\Eclipse-weixin\lpjwx\subscribe\src\main\java\com\lpj\weixin\processors\impl\SubscribeEventMessageProcessor.java
-C:\Users\lixz509\Workspaces\Eclipse-weixin\lpjwx\subscribe\src\main\java\com\lpj\weixin\processors\EventMessageProcessor.java
-C:\Users\lixz509\Workspaces\Eclipse-weixin\lpjwx\subscribe\src\main\java\com\lpj\weixin\service\AccessTokenManager.java
-C:\Users\lixz509\Workspaces\Eclipse-weixin\lpjwx\subscribe\src\main\java\com\lpj\weixin\service\JsonRedisSerializer.java
-C:\Users\lixz509\Workspaces\Eclipse-weixin\lpjwx\subscribe\src\main\java\com\lpj\weixin\processors\impl\UnsubscribeEventMessageProcessor.java
-C:\Users\lixz509\Workspaces\Eclipse-weixin\lpjwx\subscribe\src\main\java\com\lpj\weixin\service\impl\AccessTokenManagerSample.java
-C:\Users\lixz509\Workspaces\Eclipse-weixin\lpjwx\subscribe\src\main\java\com\lpj\weixin\repository\UserRepository.java
